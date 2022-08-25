@@ -13,4 +13,3 @@ const assertArraysEqual = function(arrOne, arrTwo) {
     console.log(`🛑🛑🛑 Assertion Failed: ${arrOne} !== ${arrTwo}`);
   }
 };
-assertArraysEqual([1, 2, 3,], [1, 2, 4]);
