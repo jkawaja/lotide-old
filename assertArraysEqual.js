@@ -1,3 +1,4 @@
+//eqArrays Test
 const eqArrays = function(arrOne, arrTwo) {
   if (arrOne.length !== arrTwo.length) return false;
   for (let i = 0; i < arrOne.length; i++) {
@@ -6,6 +7,7 @@ const eqArrays = function(arrOne, arrTwo) {
   return true; 
 };
 
+//assertArraysEqual Test
 const assertArraysEqual = function(arrOne, arrTwo) {
   if (eqArrays(arrOne, arrTwo)) {
     console.log(`✅✅✅ Assertion Passed: ${arrOne} === ${arrTwo}`);
